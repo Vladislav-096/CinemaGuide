@@ -1,0 +1,17 @@
+@media(max-width: 577px) {
+  .btn-close-modal {
+    top: 8px;
+    right: 8px;
+  }
+}
+
+@media(max-width: 480px) {
+  .modal-logo-wrapper {
+    margin-bottom: 8px;
+  }
+
+  .modal-content {
+    padding: 64px 20px 32px 20px;
+    width: 90vw;
+  }
+}

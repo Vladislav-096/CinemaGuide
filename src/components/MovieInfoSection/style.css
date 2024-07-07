@@ -1,0 +1,10 @@
+.movie-info-section {
+  padding-top: 93px;
+}
+
+.movie-info-section-loader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

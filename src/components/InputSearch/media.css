@@ -1,0 +1,42 @@
+@media (max-width:1400px) {
+  .input-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-main-wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .input-close-button-768 {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 21px;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .input {
+    height: 56px;
+  }
+
+  .input-close-button {
+    display: none;
+  }
+
+  .input-main-wrapper {
+    min-width: initial;
+  }
+
+  .search-icon {
+    top: 18px;
+  }
+
+  .custom-placeholder {
+    top: 16px;
+  }
+}

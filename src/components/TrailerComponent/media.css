@@ -1,0 +1,7 @@
+@media(max-width: 768px) {
+  .trailer-button-wrapper {
+    display: flex;
+    margin-bottom: 14px;
+    flex-direction: column;
+  }
+}

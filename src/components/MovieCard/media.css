@@ -1,0 +1,15 @@
+@media (max-width: 1400px) {
+  .card-list-item {
+    width: initial;
+  }
+}
+
+@media (max-width: 577px) {
+  .inner-wrapper {
+    box-shadow: 0px 0px 27px 0px #FFFFFF54;
+  }
+
+  .card-list-item {
+    margin-bottom: 33px;
+  }
+}

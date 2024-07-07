@@ -1,0 +1,98 @@
+.card-list-item {
+  display: flex;
+  margin-bottom: 64px;
+  height: 336px;
+  width: inherit;
+}
+
+.pointer-event-none {
+  pointer-events: none;
+}
+
+.row {
+  --bs-gutter-x: 2.5rem;
+}
+
+.inner-wrapper {
+  display: block;
+  position: relative;
+  width: 224px;
+  height: inherit;
+  box-shadow: 0px 0px 80px 0px #FFFFFF54;
+  border-radius: 20px;
+}
+
+.inner-wrapper-disabled {
+  pointer-events: none;
+}
+
+.card-number {
+  position: absolute;
+  padding: 8px 24px;
+  top: -12px;
+  left: -13px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(106, 93, 194, 1);
+  user-select: none;
+}
+
+.movie-cover {
+  width: 100%;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.movie-cover-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  user-select: none;
+}
+
+.btn-close-card {
+  position: absolute;
+  top: -22px;
+  right: -22px;
+  color: #fff;
+  z-index: 100;
+}
+
+/* Кнопка */
+.btn-close-card {
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  border-radius: 50%;
+  right: -50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.btn-close-card[data-kind="primary"] {
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  padding: 15px;
+  z-index: 100;
+  top: -20px;
+  right: -20px;
+}
+
+.btn-close-card[data-kind="thirdly"] {
+  display: none;
+}
+
+.inner-wrapper .btn-close-card {
+  transition: visibility .2s, opacity .2s;
+}
+
+.inner-wrapper:hover .btn-close-card {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,21 @@
+.cover-pic {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  right: 0;
+}
+
+.cover-pic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.cover-img {
+  width: 900px;
+  height: inherit;
+}

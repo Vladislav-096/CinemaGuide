@@ -1,0 +1,5 @@
+@media(max-width: 768px) {
+  .refresh-button:hover {
+    background-image: url('../../assets/refresh.svg');
+  }
+}

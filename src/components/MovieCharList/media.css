@@ -1,0 +1,5 @@
+@media(max-width: 768px) {
+  .movie-info-list__item {
+    padding-top: 12px;
+  }
+}

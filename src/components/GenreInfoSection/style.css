@@ -1,0 +1,34 @@
+.genre-name-header {
+  position: relative;
+  display: inline-block;
+  padding-left: 55px;
+  margin-bottom: 63px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.genre-name-header::before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 21px;
+  left: 13px;
+  top: 17px;
+  background-image: url('../../assets/arorow-back.svg');
+  background-repeat: no-repeat;
+}
+
+.genre-section-page {
+  padding-top: 160px;
+}
+
+.movie-info-page-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+}

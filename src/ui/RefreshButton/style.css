@@ -1,0 +1,26 @@
+.refresh-button {
+  position: relative;
+  padding: 28px 34px;
+  border-radius: 28px;
+  background-color: rgba(57, 59, 60, 1);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.refresh-button {
+  background-image: url('../../assets/refresh.svg');
+  transition: background-image .3s, background-color .3s;
+}
+
+.refresh-button:hover {
+  background-image: url('../../assets/refresh-hovered.svg');
+}
+
+
+.refresh-button[data-kind="primary"] {
+  display: block;
+}
+
+.refresh-button[data-kind="thirdly"] {
+  display: none;
+}

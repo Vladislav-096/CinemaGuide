@@ -1,0 +1,45 @@
+@media (max-width:1400px) {
+  .user-info-list {
+    padding-top: 71px;
+  }
+}
+
+@media (max-width:768px) {
+  .settings-tab-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:480px) {
+  .user-info-list {
+    margin-bottom: 39px;
+    padding-top: 33px;
+  }
+
+  .settings-lable {
+    margin: 0;
+  }
+
+
+  .settings-tab-circle {
+    width: 47px;
+    height: 47px;
+  }
+
+  .settings-tab-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .settings-tab-info,
+  .settings-tab-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .settings-logout-button {
+    display: flex;
+    flex-direction: column;
+  }
+}

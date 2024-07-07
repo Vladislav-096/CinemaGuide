@@ -1,0 +1,9 @@
+@media(max-width: 768px) {
+  .favorite-button-tooltip {
+    display: none;
+  }
+
+  .favorite-button:hover {
+    background-image: url('../../assets/heart.svg');
+  }
+}

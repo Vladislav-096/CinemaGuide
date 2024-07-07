@@ -1,0 +1,11 @@
+@media(max-width: 768px) {
+  .hero-section {
+    margin-bottom: 47px;
+    min-height: initial;
+  }
+
+  .main-wrapper {
+    padding-top: 13px;
+    padding-bottom: 0;
+  }
+}

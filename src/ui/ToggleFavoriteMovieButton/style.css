@@ -1,0 +1,26 @@
+.favorite-button {
+  position: relative;
+  padding: 28px 34px;
+  border-radius: 28px;
+  background-color: rgba(57, 59, 60, 1);
+  background-image: url('../../assets/heart.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-image .2s;
+}
+
+.favorite-button:hover {
+  background-image: url('../../assets/heart-hovered.svg');
+}
+
+.btn-open-modal-toggle-favorite {
+  color: #36c;
+}
+
+.descr-open-modal-toggle-favorite {
+  margin-right: 4px;
+}
+
+.btn-open-modal-toggle-favorite:hover {
+  color: rgb(255, 0, 0);
+}

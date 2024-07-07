@@ -1,0 +1,42 @@
+.movie-table {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.about-movie-header {
+  margin-bottom: 62px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.table-row {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.table-data-name {
+  padding-right: 8px;
+}
+
+.table-data-name-inner-wrapepr {
+  width: 319px;
+  display: flex;
+}
+
+.prop-name {
+  display: inline-block;
+}
+
+.prop-name-lang {
+  width: 245px;
+}
+
+.table-space {
+  margin-left: 9px;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px dashed #FFFFFF80;
+}

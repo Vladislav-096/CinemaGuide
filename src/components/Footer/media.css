@@ -1,0 +1,40 @@
+@media (max-width: 1400px) {
+  .footer__message {
+    flex-direction: column;
+  }
+
+  .footer__descr {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 577px) {
+  .footer__inner-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .footer__message {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__copyright {
+    width: 17px;
+  }
+
+  .footer__warnin {
+    font-size: 14px;
+  }
+
+  .footer__link {
+    display: block;
+    width: 24px;
+  }
+}

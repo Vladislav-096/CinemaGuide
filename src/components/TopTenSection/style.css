@@ -1,0 +1,10 @@
+.top-ten-section {
+  position: relative;
+}
+
+.top-ten-section__header {
+  margin-bottom: 64px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}

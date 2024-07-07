@@ -1,0 +1,22 @@
+@media(max-width: 577px) {
+  .genre-section {
+    margin-bottom: 26px;
+    padding-top: 69px;
+  }
+
+  .movie-genre-header {
+    font-size: 24px;
+  }
+
+  .genre-card-list {
+    margin-bottom: 40px;
+  }
+
+  .genre-card-list-item {
+    margin: 0;
+  }
+
+  .genre-card-list-item:not(:last-child) {
+    margin-bottom: 23px;
+  }
+}

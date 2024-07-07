@@ -1,0 +1,28 @@
+@media (max-width: 1400px) {
+  .nav-account {
+    margin: 0;
+  }
+}
+
+@media (max-width: 577px) {
+
+  .account-section {
+    padding-top: 69px;
+  }
+
+  .heading-my-account {
+    margin-bottom: 36px;
+    padding: 0;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-account-list-item:not(:last-child) {
+    margin-right: 26px;
+  }
+
+  .nav-account {
+    margin-bottom: 15px;
+  }
+}

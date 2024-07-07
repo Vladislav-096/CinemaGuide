@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+  .search-card-link:hover {
+    outline: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .search-info-container {
+    border-radius: 8px;
+    padding: 8px 0px 3px 12px;
+    top: 64px
+  }
+}
+
+@media (max-width: 577px) {
+  .search-list {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .search-card-link {
+    width: 235px;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .search-card-image {
+    width: 158px;
+    height: 206px;
+  }
+
+  .search-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 4px;
+  }
+}

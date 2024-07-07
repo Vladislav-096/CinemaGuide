@@ -1,0 +1,35 @@
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 16px 48px;
+  background-color: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color .3s, background-color .3s;
+}
+
+.button[data-kind="primary"] {
+  background-color: rgba(106, 93, 194, 1);
+}
+
+.button[data-kind="primary"]:hover {
+  background-color: rgba(133, 119, 225, 1);
+}
+
+.button[data-kind="secondary"] {
+  background-color: rgba(57, 59, 60, 1);
+}
+
+.button[data-kind="secondary"]:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.button[data-kind="thirdly"] {
+  display: none;
+}

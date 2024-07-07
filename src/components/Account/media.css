@@ -1,0 +1,17 @@
+@media (max-width:768px) {
+  .btn-log-in {
+    display: none;
+  }
+
+  .btn-log-in-768 {
+    display: block;
+  }
+
+  .account-name {
+    display: none;
+  }
+
+  .account-name-768 {
+    display: block;
+  }
+}

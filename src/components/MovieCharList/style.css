@@ -1,0 +1,17 @@
+.movie-info-list {
+  display: flex;
+  align-items: center;
+}
+
+.movie-info-list__item {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.movie-info-list__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.genre-element:not(:last-child) {
+  margin-right: 7px;
+}

@@ -1,0 +1,47 @@
+.user-info-list {
+  margin-bottom: 62px;
+}
+
+.settings-tab-main-wrapper:not(:last-child) {
+  margin-bottom: 39px;
+}
+
+.settings-tab-main-wrapper {
+  display: flex;
+}
+
+.settings-lable {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.settings-tab-circle {
+  margin-right: 16px;
+  position: relative;
+  background-color: #FFFFFF80;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.settings-tab-descr-wrapepr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.settings-tab-name {
+  margin-right: 6px;
+}
+
+.settings-tab-info {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}

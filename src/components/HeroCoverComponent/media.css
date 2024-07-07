@@ -1,0 +1,22 @@
+@media(max-width: 768px) {
+  .cover-pic {
+    display: block;
+    margin-top: 54px;
+    position: static;
+  }
+
+  .cover-pic::before {
+    width: 0;
+    height: 0;
+  }
+
+  .cover-img {
+    width: 100%;
+  }
+}
+
+@media(max-width: 480px) {
+  .cover-pic {
+    height: 262px;
+  }
+}

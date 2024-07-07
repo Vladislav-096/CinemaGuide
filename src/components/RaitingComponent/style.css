@@ -1,0 +1,7 @@
+.movie-info-list__item-raiting {
+  border-radius: 16px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  background-image: url('../../assets/star.svg');
+  background-repeat: no-repeat;
+}

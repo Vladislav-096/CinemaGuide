@@ -1,0 +1,9 @@
+.card-list {
+  justify-content: flex-start;
+}
+
+.genre-info-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}

@@ -1,0 +1,55 @@
+.nav-account {
+  margin-bottom: 71px;
+}
+
+.heading-my-account {
+  margin-bottom: 73px;
+  padding-top: 67px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.nav-account-list {
+  display: flex;
+}
+
+.nav-account-list-item:not(:last-child) {
+  margin-right: 64px;
+}
+
+.account-section {
+  padding-top: 93px;
+}
+
+.btn-favorite-movies,
+.btn-setings {
+  position: relative;
+  padding-left: 31px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.btn-favorite-movies::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 18.5px;
+  top: 6px;
+  left: 2px;
+  background-image: url('../../assets/heart.svg');
+  background-repeat: no-repeat;
+}
+
+.btn-setings::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 18.5px;
+  top: 6px;
+  left: 2px;
+  background-image: url('../../assets/user-icon.svg');
+  background-repeat: no-repeat;
+}

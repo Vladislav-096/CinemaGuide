@@ -1,0 +1,48 @@
+.search-card:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+.search-card-link {
+  display: flex;
+  padding: 15px 8px 14px 9px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.search-card-link:hover {
+  outline: 1px solid #FFFFFF80;
+}
+
+.search-card-picture {
+  margin-right: 18px;
+}
+
+.search-card-image {
+  width: 40px;
+  height: 89%;
+}
+
+.serch-card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-info-container {
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  padding: 19px 8px 12px 8px;
+  background-color: #393B3C;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: .2s;
+  border-radius: 0 0 8px 8px;
+}
+
+.search-info-container.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

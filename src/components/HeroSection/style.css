@@ -1,0 +1,17 @@
+.hero-section {
+  margin-bottom: 40px;
+  position: relative;
+  min-height: 680px;
+}
+
+.main-wrapper {
+  padding-top: 202px;
+  padding-bottom: 93px;
+}
+
+.hero-section-loader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

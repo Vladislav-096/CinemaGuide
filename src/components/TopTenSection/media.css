@@ -1,0 +1,11 @@
+@media (max-width: 1400px) {
+  .top-ten-section__header {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 577px) {
+  .top-ten-section__header {
+    font-size: 24px;
+  }
+}
